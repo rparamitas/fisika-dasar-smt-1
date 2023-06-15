@@ -73,11 +73,24 @@ body {
 }
 /* End hide from IE5/mac */
 
-div #active {
+/* div #active {
   padding: 0px 0px 3px 18px;
-  width: 195px !important; /* the Housley Hack for Firefox... */
-  width: 209px; /* for IE */
+  width: 195px !important;
+  width: 209px;
   background-color: #706f61;
+  color: #ffffff;
+  border-bottom: 1px solid #fff;
+  border-top: 6px solid #706f61;
+  background-image: url(active_bg.gif);
+  background-position: -2px 2px;
+  background-repeat: no-repeat;
+} */
+
+div .active {
+  padding: 0px 0px 3px 18px;
+  width: 7rem !important;
+  width: 7rem;
+  background-color: #c7c5b9 !important;
   color: #ffffff;
   border-bottom: 1px solid #fff;
   border-top: 6px solid #706f61;
@@ -96,6 +109,11 @@ div #active {
 }
 
 #subnav a:hover {
+  color: #4d4d4d;
+  background-color: #c7c5b9;
+}
+
+#subnav a:active {
   color: #4d4d4d;
   background-color: #c7c5b9;
 }

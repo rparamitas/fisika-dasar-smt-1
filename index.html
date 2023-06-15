@@ -14,20 +14,22 @@
   </head>
   <body>
     <div id="content">
-      <div id="navcontainer" style="position: fixed;">
-        <ul id="navlist">
-          <div><a href="soal_110.html" class="withoutChild">soal 1-10</a></div>
-          <div><a href="soal_1115.html" class="withoutChild">Soal 11-15</a></div>
-          <div><a href="soal_16_20.html" class="withoutChild">Soal 16 -20</a></div>
-          <div><a href="soal_2125.html" class="withoutChild">Soal 21-25</a></div>
-          <div><a href="soal_26_30.html" class="withoutChild">Soal 26- 30</a></div>
+      <div id="navcontainer" style="position: fixed">
+        <ul id="navlist" class="navBar">
+          <div><a href="#satu" class="withoutChild active">soal 1-10</a></div>
+          <div><a href="#dua" class="withoutChild">Soal 11-15</a></div>
+          <div><a href="#tiga" class="withoutChild">Soal 16 -20</a></div>
+          <div><a href="#empat" class="withoutChild">Soal 21-25</a></div>
+          <div><a href="#lima" class="withoutChild">Soal 26- 30</a></div>
         </ul>
       </div>
       <div id="main">
-        <div id="nodeDecoration"><p id="nodeTitle">soal 1-10</p></div>
+        <div id="nodeDecoration"><p id="nodeTitle">Latihan Mandiri</p></div>
+        <br />
+        <div id="nodeDecoration"><p id="nodeSubTitle">Fisika Dasar</p></div>
         <script type="text/javascript" src="common.js"></script>
         <script type="text/javascript" src="libot_drag.js"></script>
-        <div class="iDevice emphasis1">
+        <div class="iDevice emphasis1 scrollspy" id="satu">
           <img alt="IDevice Question Icon" class="iDevice_icon" src="icon_question.gif" />
           <span class="iDeviceTitle">Soal 1 - 10</span><br />
           <div class="iDevice_inner">
@@ -1254,7 +1256,7 @@
             <br />
           </div>
         </div>
-        <div class="iDevice emphasis1">
+        <div class="iDevice emphasis1 scrollspy" id="dua">
           <img alt="IDevice Question Icon" class="iDevice_icon" src="icon_question.gif" />
           <span class="iDeviceTitle">Soal 11 - 20</span><br />
           <div class="iDevice_inner">
@@ -1737,7 +1739,7 @@
             <br />
           </div>
         </div>
-        <div class="iDevice emphasis1">
+        <div class="iDevice emphasis1 scrollspy" id="tiga">
           <img alt="IDevice Question Icon" class="iDevice_icon" src="icon_question.gif" />
           <span class="iDeviceTitle">Multi-choice</span><br />
           <div class="iDevice_inner">
@@ -2397,7 +2399,7 @@
             <br />
           </div>
         </div>
-        <div class="iDevice emphasis1">
+        <div class="iDevice emphasis1 scrollspy" id="empat">
           <img alt="IDevice Question Icon" class="iDevice_icon" src="icon_question.gif" />
           <span class="iDeviceTitle">Soal 21-25</span><br />
           <div class="iDevice_inner">
@@ -2918,7 +2920,7 @@
             <br />
           </div>
         </div>
-        <div class="iDevice emphasis1">
+        <div class="iDevice emphasis1 scrollspy" id="lima">
           <img alt="IDevice Question Icon" class="iDevice_icon" src="icon_question.gif" />
           <span class="iDeviceTitle">Soal 26 - 30</span><br />
           <div class="iDevice_inner">
@@ -3578,5 +3580,6 @@
         <div class="noprt" align="right"><a href="pengantar.html">&laquo; Previous</a> | <a href="soal_1115.html"> Next &raquo;</a></div>
       </div>
     </div>
+    <script src="script.js"></script>
   </body>
 </html>

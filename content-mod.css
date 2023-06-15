@@ -28,6 +28,14 @@ a:hover {
 
 p#nodeTitle { 
    color: #4d4d4d;
+   font-size: 1rem;
+   letter-spacing: -1px;
+   text-align:left;
+   padding-right: 30px;
+}
+
+p#nodeSubTitle { 
+   color: #568d14;
    font-size: 32px;
    letter-spacing: -1px;
    text-align:left;
